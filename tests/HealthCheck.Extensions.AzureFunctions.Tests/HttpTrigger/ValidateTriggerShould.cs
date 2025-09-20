@@ -2,5 +2,14 @@
 
 public class ValidateTriggerShould
 {
-    
+    ValidateTriggerShould()
+    {
+        
+    }
+
+    [Fact]
+    public async Task CreateHttpClient()
+    {
+        
+    }
 }
