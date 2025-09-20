@@ -1,4 +1,4 @@
-﻿namespace HealthCheck.Extensions.Common.Tests;
+﻿namespace HealthCheck.Extensions.Common.Tests.BaseHttpServiceTests;
 
 public class BaseHttpServiceExtensionsAddNamedClientShould
 {
@@ -8,7 +8,7 @@ public class BaseHttpServiceExtensionsAddNamedClientShould
     }
 
     [Fact]
-    public async Task AddNamedClientToDependencyPipeline_When_AddNamedClientCalled()
+    public async Task AddClientToDependencyInjectionPipeline()
     {
         
     }
